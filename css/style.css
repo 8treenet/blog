@@ -96,6 +96,35 @@ header .logo .title {
   font-family: "Orbitron", sans-serif;
   text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
 }
+header {
+  padding-top: 100px;
+}
+header .content {
+  margin: 0 auto;
+  text-align: center;
+}
+header .content a,
+header .content a:link,
+header .content a:visited,
+header .content a:active {
+  border-bottom: none;
+}
+header .content .logo-icon {
+  font-size: 60px;
+  color: #d7ecff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+}
+header .content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+header .content .title {
+  line-height: 100px;
+  color: #d7ecff;
+  font-family: "Orbitron", sans-serif;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+}
 section.main {
   color: #d7ecff;
 }
